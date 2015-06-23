@@ -11,21 +11,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Large Text"
+                android:text="@string/welcome_label"
                 android:id="@+id/textView"
                 android:layout_marginTop="52dp" android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New Button"
-                android:id="@+id/button" android:layout_centerVertical="true" android:layout_centerHorizontal="true"/>
+                android:text="@string/addContact_button"
+                android:id="@+id/button" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+                android:onClick="renderAddContact"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New Button"
+                android:text="@string/selectContact_button"
                 android:id="@+id/button2" android:layout_below="@+id/button" android:layout_centerHorizontal="true"
-                android:layout_marginTop="43dp"/>
+                android:layout_marginTop="43dp" android:onClick="renderSelectContact"/>
     </RelativeLayout>
 </LinearLayout>
 

@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">MyContacts</string>
+    <string name="welcome_label">Welcome to MyContacts</string>
+    <string name="addContact_button">Add contact</string>
+    <string name="selectContact_button">Select Contact</string>
+    <string name="addContact_label">Add a new Contact</string>
+    <string name="name_label">Name</string>
+    <string name="email_label">Email</string>
+    <string name="phone_label">Phone</string>
+    <string name="address_label">Address</string>
+    <string name="ok_label">OK</string>
+    <string name="added_message">Added</string>
+    <string name="comma_label">, </string>
+    <string name="colon_label"> : </string>
 </resources>
